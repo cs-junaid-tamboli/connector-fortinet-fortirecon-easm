@@ -6,9 +6,9 @@
   "contributor": "Ramkrushna Pathade",
   "cs_approved": true,
   "cs_compatible": true,
-  "version": "1.2.1",
+  "version": "1.2.2",
   "category": "Attack Surface Management",
-  "help_online": "https://docs.fortinet.com/document/fortisoar/1.2.1/fortinet-fortirecon-easm/121/fortinet-fortirecon-easm-v1-2-1",
+  "help_online": "",
   "icon_small_name": "small.png",
   "icon_large_name": "large.png",
   "configuration": {
@@ -1423,6 +1423,14 @@
             "id": "",
             "ip_address": "",
             "nameserver": [],
+            "discovery_path": [
+              {
+                "from":"",
+                "type": "",
+                "module": "",
+                "from_type": ""
+              }
+            ],
             "original_ip": [],
             "ports": [],
             "ssl_cert_org": "",
@@ -1829,32 +1837,40 @@
         "page": "",
         "size": "",
         "hits": [
+         {
+        "id": "",
+        "tags": [
           {
-            "tags": [
-              {
-                "id": "",
-                "name": ""
-              }
-            ],
-            "groups": [
-              {
-                "id": "",
-                "name": ""
-              }
-            ],
             "id": "",
-            "ip_prefix": "",
-            "asset": "",
-            "ports": [],
-            "cloud_metadata": {},
-            "fgt_metadata": {},
-            "discovery_path": [],
-            "assets_linked_count": "",
-            "version": "",
-            "created_ts": "",
-            "modified_ts": ""
+            "name": ""
           }
-        ]
+        ],
+        "asset": "",
+        "ports": [],
+        "groups": [
+          {
+            "id": "",
+            "name": ""
+          }
+        ],
+        "version": "",
+        "ip_prefix": null,
+        "created_ts": "",
+        "modified_ts": "",
+        "fgt_metadata": {},
+        "cloud_metadata": {},
+        "discovery_path": [
+          {
+            "from": "",
+            "type": "",
+            "module": "",
+            "from_type": ""
+          }
+        ],
+        "assets_linked_count": ""
+      }
+
+    ]
       },
       "parameters": [
         {
@@ -2207,7 +2223,14 @@
             "assets_linked_count": "",
             "company_name": "",
             "fgt_metadata": {},
-            "discovery_path": [],
+            "discovery_path": [
+          {
+            "from": "",
+            "type": "",
+            "module": "",
+            "from_type": ""
+          }
+        ],
             "groups": [
               {
                 "id": "",
@@ -2795,7 +2818,12 @@
         ],
         "asset": "",
         "ports": [],
-        "groups": [],
+        "groups": [
+          {
+            "id": "",
+            "name": ""
+          }
+        ],
         "ip_address": "",
         "domain_name": "",
         "issue_count": "",
